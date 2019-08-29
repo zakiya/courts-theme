@@ -1,0 +1,31 @@
+name: JCC
+type: theme
+base theme: classy
+description: ''
+core: 8.x
+
+libraries:
+  - core/drupal
+  - core/jquery
+  - jcc/global
+
+stylesheets-remove:
+  - '@classy/css/components/menu.css'
+  - '@classy/css/components/pager.css'
+  - '@stable/css/filter/filter.caption.css'
+  - core/assets/vendor/jquery.ui/themes/base/accordion.css
+  - core/assets/vendor/jquery.ui/themes/base/theme.css
+
+regions:
+  header: "Header"
+  content: "Content"
+  footer: "Footer"
+  highlighted: "Highlighted"
+  help: "Help"
+
+component-libraries:
+  theme:
+    paths:
+      - templates/components
+
+

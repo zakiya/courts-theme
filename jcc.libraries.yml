@@ -1,0 +1,5 @@
+global:
+  css:
+    base:
+      assets/css/style.css: {}
+
